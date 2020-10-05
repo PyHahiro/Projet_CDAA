@@ -1,0 +1,13 @@
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\obj\Debug\netcoreapp3.1\Projet_CDAA.csprojAssemblyReference.cache
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\obj\Debug\netcoreapp3.1\Projet_CDAA.AssemblyInfoInputs.cache
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\obj\Debug\netcoreapp3.1\Projet_CDAA.AssemblyInfo.cs
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\obj\Debug\netcoreapp3.1\Projet_CDAA.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\bin\Debug\netcoreapp3.1\Projet_CDAA.exe
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\bin\Debug\netcoreapp3.1\Projet_CDAA.deps.json
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\bin\Debug\netcoreapp3.1\Projet_CDAA.runtimeconfig.json
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\bin\Debug\netcoreapp3.1\Projet_CDAA.runtimeconfig.dev.json
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\bin\Debug\netcoreapp3.1\Projet_CDAA.dll
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\bin\Debug\netcoreapp3.1\Projet_CDAA.pdb
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\obj\Debug\netcoreapp3.1\Projet_CDAA.dll
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\obj\Debug\netcoreapp3.1\Projet_CDAA.pdb
+C:\Users\Jonathan\source\repos\Projet_CDAA\Projet_CDAA\obj\Debug\netcoreapp3.1\Projet_CDAA.genruntimeconfig.cache
