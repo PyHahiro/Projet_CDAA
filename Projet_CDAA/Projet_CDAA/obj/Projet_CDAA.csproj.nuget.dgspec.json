@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonathan\\source\\repos\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA.csproj": {}
+    "C:\\Users\\Jonathan\\Desktop\\L3\\Semestre 1\\UE2 CDAA\\Projet\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonathan\\source\\repos\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA.csproj": {
+    "C:\\Users\\Jonathan\\Desktop\\L3\\Semestre 1\\UE2 CDAA\\Projet\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan\\source\\repos\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA.csproj",
+        "projectUniqueName": "C:\\Users\\Jonathan\\Desktop\\L3\\Semestre 1\\UE2 CDAA\\Projet\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA.csproj",
         "projectName": "Projet_CDAA",
-        "projectPath": "C:\\Users\\Jonathan\\source\\repos\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA.csproj",
+        "projectPath": "C:\\Users\\Jonathan\\Desktop\\L3\\Semestre 1\\UE2 CDAA\\Projet\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA.csproj",
         "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan\\source\\repos\\Projet_CDAA\\Projet_CDAA\\obj\\",
+        "outputPath": "C:\\Users\\Jonathan\\Desktop\\L3\\Semestre 1\\UE2 CDAA\\Projet\\Projet_CDAA\\Projet_CDAA\\Projet_CDAA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",

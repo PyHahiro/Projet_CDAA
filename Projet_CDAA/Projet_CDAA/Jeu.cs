@@ -44,7 +44,7 @@ public class Jeu:IEquatable<Jeu>
     /*
         toString() Affiche des jeux
      */
-    public String toString()
+    public override String ToString()
     {
         return ("Nom : "+this.nom+" | Description : "+this.description+" | Plateforme : "+this.plateforme+" Genre : "+Enum.GetName(typeof(Genres), genre)+" | Editeur : "+this.editeur
             +" | Prix : "+this.prix+" | Date :"+this.date+" | Reconditionné : "+this.recondition );
@@ -53,9 +53,9 @@ public class Jeu:IEquatable<Jeu>
     /*
         Affichage
      */
-    public void afficher()
+    public void Afficher()
     {
-        Console.WriteLine(toString());
+        Console.WriteLine(ToString());
     }
     /*
          Constructeur 0
@@ -97,5 +97,10 @@ public class Jeu:IEquatable<Jeu>
             Jeu j2 = o as Jeu;
             return this.Equals(j2);
         }
+    }
+
+    public override int GetHashCode()
+    {
+        return 0;
     }
 }

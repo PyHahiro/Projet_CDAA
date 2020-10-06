@@ -24,10 +24,10 @@ public class Catalogue
     {
         for(int i = 0; i < lj.Taille; i++)
 		{
-			Console.WriteLine("|---------------------------|---------------------------|\n" + this.lj.getJeu(i).toString());
+			Console.WriteLine("\n" + this.lj.getJeu(i).ToString());
 
         }
-		Console.WriteLine("|---------------------------|---------------------------|");
+		Console.WriteLine("~-~");
 
 	}
 }

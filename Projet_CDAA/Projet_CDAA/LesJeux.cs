@@ -23,12 +23,12 @@ public class LesJeux
         return listj.ElementAt(i);
     }
 
-    public String toString()
+    public override String ToString()
     {
         String s = "";
         for (int i = 0; i < listj.Count; i++)
         {
-            s += listj.ElementAt(i).toString();
+            s += listj.ElementAt(i).ToString();
             s += "\n";
         }
         return s;
