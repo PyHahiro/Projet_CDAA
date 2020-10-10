@@ -49,14 +49,6 @@ public class Jeu:IEquatable<Jeu>
         return ("Nom : "+this.nom+" | Description : "+this.description+" | Plateforme : "+this.plateforme+" Genre : "+Enum.GetName(typeof(Genres), genre)+" | Editeur : "+this.editeur
             +" | Prix : "+this.prix+" | Date :"+this.date+" | Reconditionné : "+this.recondition );
     }
-
-    /*
-        Affichage
-     */
-    public void Afficher()
-    {
-        Console.WriteLine(ToString());
-    }
     /*
          Constructeur 0
      */
@@ -81,6 +73,21 @@ public class Jeu:IEquatable<Jeu>
         this.nom = n;
     }
 
+    /*
+     * Constructeur Complet
+     */
+
+    public Jeu(String n, String d, String p, Genres g, String e, double prix, DateTime dat, Boolean b)
+    {
+        this.nom = n;
+        this.description = d;
+        this.plateforme = p;
+        this.genre = g;
+        this.editeur = e;
+        this.prix = prix;
+        this.date = dat;
+        this.recondition = b;
+    }
     /*
         Equals
      */
