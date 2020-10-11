@@ -116,14 +116,14 @@ public class Catalogue
 	 * Récupération par le nom
 	 */
 
-	public List<Jeu> GetJeuNom(String nom)
+	public LesJeux GetJeuNom(String nom)
     {
-		List<Jeu> jeuRecup = new List<Jeu>();
+		LesJeux ljres = new LesJeux();
 		for(int i = 0; i < lj.Taille; i++)
         {
-			if (this.lj.GetJeu(i).Nom.Equals(nom)) jeuRecup.Add(this.lj.GetJeu(i)); 
+			if (this.lj.GetJeu(i).Nom.Equals(nom)) ljres.AjoutJeu(this.lj.GetJeu(i)); 
         }
-		return jeuRecup;
+		return ljres;
     }
 
 	public List<ConsoleJ> GetConsoleNom(String nom)
@@ -140,12 +140,12 @@ public class Catalogue
 	 * Récupération par le Genre
 	 */
 
-	public List<Jeu> GetJeuGenre(Genres genre)
+	public LesJeux GetJeuGenre(Genres genre)
     {
-		List<Jeu> jeuRecup = new List<Jeu>();
+		LesJeux jeuRecup = new LesJeux();
 		for(int i= 0; i < lj.Taille; i++)
         {
-			if (this.lj.GetJeu(i).Genre.Equals(genre)) jeuRecup.Add(this.lj.GetJeu(i));
+			if (this.lj.GetJeu(i).Genre.Equals(genre)) jeuRecup.AjoutJeu(this.lj.GetJeu(i));
         }
 		return jeuRecup;
 	}
