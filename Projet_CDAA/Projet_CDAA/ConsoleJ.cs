@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-class ConsoleJ:IEquatable<ConsoleJ>
+public class ConsoleJ:IEquatable<ConsoleJ>
 {
     private String nom;
     public String Nom { get { return nom; } set { nom = value; } }
@@ -79,8 +79,8 @@ class ConsoleJ:IEquatable<ConsoleJ>
         if (o == null) return false;
         else
         {
-            Jeu j2 = o as Jeu;
-            return this.Equals(j2);
+            ConsoleJ c2 = o as ConsoleJ;
+            return this.Equals(c2);
         }
     }
 

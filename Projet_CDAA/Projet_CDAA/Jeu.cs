@@ -12,8 +12,8 @@ public enum Genres
 public class Jeu:IEquatable<Jeu>
 {
     /*
-        Accesseurs - Mutateurs
-    */
+     *  Accesseurs - Mutateurs
+     */
         
     private string nom;
     public string Nom{ get { return nom; } set { nom = value; } }

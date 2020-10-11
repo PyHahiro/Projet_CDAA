@@ -1,28 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
-namespace Projet_CDAA
+class Program
 {
-    class Program
+    public static void Main(String[] args)
     {
-        public static void Main(String[] args)
+
+    /* TODO 
+     * Programme principal
+     * Matthieu : tes goodies
+     * Panier<T>
+     */
+      //  Jeu j1 = new Jeu("Super Smash bros brawl");
+    //   ConsoleJ c1 = new ConsoleJ("PS4");
+
+        LesJeux lj = new LesJeux();
+        LesConsoles lc = new LesConsoles();
+        Jeu j1 = new Jeu("Mario Kart");
+        lj.AjoutJeu(j1);
+        lj.Init();
+        lc.Init();
+
+        List<Jeu> mario = new List<Jeu>();
+
+        Catalogue cata = new Catalogue(lc, lj);
+        mario = cata.GetJeuGenre(Genres.Action_Aventure);
+        for(int i = 0; i < mario.Count; i++)
         {
-            Jeu j2 = new Jeu("Mario Kart 7");
-            j2.Description = "Bonjour je suis une description";
-            JeuRetro jr1 = new JeuRetro("Mario kart double dash");
-            ConsoleJ c1 = new ConsoleJ("PS4");
-
-            LesJeux lj = new LesJeux();
-            lj.ajoutJeu(jr1);
-            lj.ajoutJeu(j2);
-
-            lj.init();
-            Catalogue cata = new Catalogue(lj);
-            cata.affiche_catalogue();
-            Console.WriteLine(c1.ToString());
-
-           // Console.WriteLine(j1.toString()+"\n"+j2.toString());
+            Console.WriteLine(mario.ElementAt(i));
         }
+       // cata.affiche_catalogue();
+
+
+        // Console.WriteLine(j1.toString()+"\n"+j2.toString());
     }
 }
